@@ -54,7 +54,8 @@
   padding: 0px;
 }
 
-.list-item, .heading {
+.list-item,
+.heading {
   list-style: none;
 }
 
