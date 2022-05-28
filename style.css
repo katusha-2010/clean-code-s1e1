@@ -1,9 +1,9 @@
 /* Basic Style */
-*{
+/* *{
   margin: 0;
   padding: 0px;
   list-style: none;
-}
+} */
 
 .body {
   background-color: #f8f8f8;
@@ -49,14 +49,14 @@
   display: flex;
 }
 
-/* ul {
+.list {
   margin: 0;
   padding: 0px;
 }
 
-li, h3 {
+.list-item, .heading {
   list-style: none;
-} */
+}
 
 .input,
 .button{
@@ -162,16 +162,16 @@ li, h3 {
   color: #888;
 }
 
-/* Edit Task *  
-ul li input[type=text] {
+/* Edit Task */  
+.list-item .input[type=text] {
   display:none;
 }
 
-ul li.edit-mode input[type=text] {
+.edit-mode .input[type=text] {
   display:inline-block;
   width:224px;
 }
 
-ul li.edit-mode label {
+.edit-mode .label {
   display:none;
 }
