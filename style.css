@@ -164,14 +164,14 @@
 
 /* Edit Task */  
 .list__item .input_text {
-  display:none;
+  display: none;
 }
 
 .list__item_edit .input_text {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .list__item_edit .task__block {
-  display:none;
+  display: none;
 }
