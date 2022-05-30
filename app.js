@@ -33,7 +33,7 @@ var createNewTaskElement=function(taskString){
     var deleteButtonImg=document.createElement("img");//delete button image
 
     label.innerText=taskString;
-    label.className='task task__block';
+    label.className='task list__item-block';
 
     //Each elements, needs appending
     listItem.className = "list__item";
@@ -47,7 +47,7 @@ var createNewTaskElement=function(taskString){
 
     deleteButton.className="button button_delete";
     deleteButtonImg.src='./remove.svg';
-    deleteButtonImg.className="button_delete__image";
+    deleteButtonImg.className="btn-delete__image";
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -86,7 +86,7 @@ var editTask=function(){
     var listItem=this.parentNode;
 
     var editInput=listItem.querySelector('input[type=text]');
-    var label=listItem.querySelector(".task__block");
+    var label=listItem.querySelector(".list__item-block");
     var editBtn=listItem.querySelector(".button_edit");
     var containsClass=listItem.classList.contains("list__item_edit");
     //If class of the parent is .editmode

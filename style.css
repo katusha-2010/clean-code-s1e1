@@ -135,7 +135,7 @@
   margin: 0 10px;
 }
 
-.task__block {
+.list__item-block {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -146,18 +146,18 @@
   width: 226px;
 }
 
-.button_delete__image {
+.btn-delete__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.button_delete__image:hover {
+.btn-delete__image:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.completed-section__list .task__block {
+.completed-section__list .list__item-block {
   text-decoration: line-through;
   color: #888;
 }
@@ -172,6 +172,6 @@
   width: 224px;
 }
 
-.list__item_edit .task__block {
+.list__item_edit .list__item-block {
   display: none;
 }
